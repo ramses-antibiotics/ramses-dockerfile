@@ -31,7 +31,7 @@ RUN apt-get update \
     unixodbc-dev \
     libsasl2-dev \
     msodbcsql17 \
-    msodbcsql
+    msodbcsql \
   && install2.r --error \
     --deps TRUE \
     tidyverse \
