@@ -42,10 +42,7 @@ RUN apt-get update \
     unixodbc-dev \
     xtail \
     wget \
-    zlib1g-dev \
-    && install2.r --error \
-    --deps TRUE \
-    comorbidity
+    zlib1g-dev
 
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
   && curl https://packages.microsoft.com/config/debian/10/prod.list > /etc/apt/sources.list.d/mssql-release.list
@@ -53,3 +50,32 @@ RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
 RUN apt-get update && ACCEPT_EULA=Y apt-get install -y msodbcsql17 mssql-tools
 RUN echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 RUN /bin/bash -c "source ~/.bashrc"
+
+RUN install2.r --error \
+    --deps TRUE \
+    tidyverse \
+    dplyr \
+    devtools \
+    formatR \
+    remotes \
+    selectr \
+    caTools \
+    BiocManager \
+    covr \
+    feather \
+    glue \
+    knitr \
+    rmarkdown \
+    shiny \
+    testthat \
+    odbc \
+    selectr \
+    RSQLite \
+    ggplot2 \
+    Rdpack \
+    data.table \
+    XML \
+    xml2 \
+    units \
+    AMR \
+    comorbidity
