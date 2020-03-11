@@ -78,4 +78,5 @@ RUN install2.r --error \
     xml2 \
     units \
     AMR \
-    comorbidity
+    comorbidity \
+    qpdf
