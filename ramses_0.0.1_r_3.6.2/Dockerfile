@@ -79,4 +79,5 @@ RUN install2.r --error \
     units \
     AMR \
     comorbidity \
-    qpdf
+    qpdf \
+    odbc
