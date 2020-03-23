@@ -38,6 +38,7 @@ RUN apt-get update \
     procps \
     psmisc \
     python-setuptools \
+    qpdf \
     sudo \
     unixodbc-dev \
     xtail \
