@@ -81,4 +81,5 @@ RUN install2.r --error \
     AMR \
     comorbidity \
     qpdf \
-    odbc
+    odbc \
+    microbenchmark
