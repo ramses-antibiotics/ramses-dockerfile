@@ -82,4 +82,5 @@ RUN install2.r --error \
     comorbidity \
     qpdf \
     odbc \
-    microbenchmark
+    microbenchmark \
+    DiagrammeR
