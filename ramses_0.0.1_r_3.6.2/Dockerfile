@@ -31,6 +31,7 @@ RUN apt-get update \
     libssh2-1-dev \
     libssl-dev \
     libudunits2-dev \
+    libv8-dev \
     libxml2-dev \
     lsb-release \
     mesa-common-dev \
