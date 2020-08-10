@@ -18,24 +18,22 @@ RUN apt-get update \
     libclang-dev \
     libcurl4-openssl-dev \
     libedit2 \
-    libgdal-dev \
     libgeos-dev \
     libglu1-mesa-dev \
     libjpeg-dev \
     libmagick++-dev \
-    libmariadb-client-lgpl-dev \
-    libmariadbd-dev \
+    libmariadbclient-dev \
+    libmariadbd-dev \ 
     libpq-dev \
     libsasl2-dev \
     libsqlite3-dev \
     libssh2-1-dev \
     libssl-dev \
     libudunits2-dev \
-    libv8-dev \
+    libnode-dev \
     libxml2-dev \
     lsb-release \
     mesa-common-dev \
-    multiarch-support \
     procps \
     psmisc \
     python-setuptools \
