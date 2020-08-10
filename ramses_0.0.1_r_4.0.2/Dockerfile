@@ -39,6 +39,7 @@ RUN apt-get update \
     python-setuptools \
     qpdf \
     sudo \
+    unixodbc \
     unixodbc-dev \
     xtail \
     wget \
