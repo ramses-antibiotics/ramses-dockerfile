@@ -61,7 +61,6 @@ RUN install2.r --error \
     remotes \
     selectr \
     caTools \
-    BiocManager \
     covr \
     feather \
     glue \
