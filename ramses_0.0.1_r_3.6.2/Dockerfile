@@ -84,4 +84,5 @@ RUN install2.r --error \
     qpdf \
     odbc \
     microbenchmark \
-    DiagrammeR
+    DiagrammeR \
+    timevis
