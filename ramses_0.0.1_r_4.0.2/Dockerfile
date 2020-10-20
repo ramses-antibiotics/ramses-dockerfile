@@ -83,4 +83,5 @@ RUN install2.r --error \
     odbc \
     microbenchmark \
     DiagrammeR \
-    timevis
+    timevis \
+    RPostgres   
