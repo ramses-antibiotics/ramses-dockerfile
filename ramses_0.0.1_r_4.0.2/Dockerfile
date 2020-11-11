@@ -88,3 +88,5 @@ RUN install2.r --error \
     DiagrammeR \
     timevis \
     RPostgres   
+
+RUN /bin/R -e "devtools::install_github('rstudio/rmarkdown', ref ='v2.5')"
