@@ -89,4 +89,4 @@ RUN install2.r --error \
     timevis \
     RPostgres   
 
-RUN /bin/R -e "devtools::install_github('rstudio/rmarkdown', ref ='v2.5')"
+RUN R -e "devtools::install_github('rstudio/rmarkdown', ref ='v2.5')"
