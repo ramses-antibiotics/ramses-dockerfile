@@ -35,6 +35,7 @@ RUN apt-get update \
     libxml2-dev \
     lsb-release \
     mesa-common-dev \
+    pandoc-citeproc \
     procps \
     psmisc \
     python-setuptools \
