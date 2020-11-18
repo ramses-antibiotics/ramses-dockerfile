@@ -90,3 +90,4 @@ RUN install2.r --error \
     RPostgres   
 
 RUN R -e "devtools::install_github('rstudio/rmarkdown', ref ='v2.5')"
+RUN R -e "devtools::install_github('ramses-antibiotics/snomedizer')"

@@ -87,3 +87,5 @@ RUN install2.r --error \
     DiagrammeR \
     timevis \
     RPostgres
+
+RUN R -e "devtools::install_github('ramses-antibiotics/snomedizer')"
