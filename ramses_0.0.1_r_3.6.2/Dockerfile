@@ -88,5 +88,4 @@ RUN install2.r --error \
     RPostgres
 
 RUN R -e "devtools::install_github('ramses-antibiotics/snomedizer')"
-RUN R -e "install.packages('dbplyr')" 
-RUN R -e "install.packages('dplyr')" 
+
