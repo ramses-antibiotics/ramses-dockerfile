@@ -7,6 +7,7 @@ RUN apt-get update \
     ca-certificates \ 
     cargo \
     curl \
+    default-libmysqlclient-dev \
     file \
     freeglut3-dev \
     git \
@@ -16,13 +17,11 @@ RUN apt-get update \
     libclang-dev \
     libcurl4-openssl-dev \
     libedit2 \
-    libgdal1i \
+    libgdal-dev \
     libgeos-dev \
     libglu1-mesa-dev \
     libjpeg-dev \
     libmagick++-dev \
-    libmariadbclient-dev \
-    libmariadbd-dev \ 
     libpq-dev \
     libsasl2-dev \
     libsqlite3-dev \
