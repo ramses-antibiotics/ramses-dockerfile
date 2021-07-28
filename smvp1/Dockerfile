@@ -16,6 +16,7 @@ RUN apt-get update \
     libclang-dev \
     libcurl4-openssl-dev \
     libedit2 \
+    libgdal1i \
     libgeos-dev \
     libglu1-mesa-dev \
     libjpeg-dev \
